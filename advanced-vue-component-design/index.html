@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv='content-language' content='en-us'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Advanced Vue Component Design, Designing compound components using Vues provide and inject features Real-world case studies on building robust sortable list and search select components Every lesson is as short as possible but no shorter so youll learn everything you need to.">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+
+    
+<title>69 Simple Advanced vue component design  | Creative Design and Ideas</title>
+<meta name="url" content="https://wallepics.github.io/creative-design/advanced-vue-component-design/" />
+<meta property="og:url" content="https://wallepics.github.io/creative-design/advanced-vue-component-design/">
+<meta property="article:author" content="Fablo"> 
+<meta name="author" content="Fablo">
+<meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+<link rel="canonical" href="https://wallepics.github.io/creative-design/advanced-vue-component-design/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://wallepics.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="https://wallepics.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://wallepics.github.io/assets/css/theme.css">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": "69 Simple Advanced vue component design ",
+    "headline": "69 Simple Advanced vue component design ",
+    "alternativeHeadline": "",
+    "description": "An easy image cropper and optionally uploader component for vuejs 24 October 2021. If youve been following along with some of our other Vue courses youre now at the point where you are ready to tackle more advanced concepts. Advanced vue component design.",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/wallepics.github.io\/creative-design\/advanced-vue-component-design\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Fablo"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Fablo"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Fablo"
+    },
+    "copyrightHolder" : "Creative Design and Ideas",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-08-30T10:57:43.00Z",
+    "datePublished": "2021-08-30T10:57:43.00Z",
+    "dateModified": "2021-08-30T10:57:43.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Creative Design and Ideas",
+        "url": "https://wallepics.github.io/creative-design/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/wallepics.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": "https://wallepics.github.io/logo.png",
+    "url" : "https:\/\/wallepics.github.io\/creative-design\/advanced-vue-component-design\/",
+    "wordCount" : "1415",
+    "genre" : [ "home ideas" ],
+    "keywords" : [ "Advanced" , "vue" , "component" , "design" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://wallepics.github.io/creative-design/"><span style="text-transform: capitalize;font-weight: bold;">Creative Design and Ideas</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://wallepics.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://wallepics.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://wallepics.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://wallepics.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://wallepics.github.io/creative-design/categories/creative-design/" title="Creative Design">Creative Design</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://wallepics.github.io/creative-design/categories/creative-design"/>Creative Design</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline">69 Simple Advanced vue component design </h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Fablo <span class="text-muted d-block mt-1">Aug 30, 2021 · <span class="reading-time">7 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://i.pinimg.com/originals/89/85/b9/8985b95ac55a21b082af8a7cf5187acb.png" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" alt="69 Simple Advanced vue component design "/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>An easy image cropper and optionally uploader component for vuejs 24 October 2021. If youve been following along with some of our other Vue courses youre now at the point where you are ready to tackle more advanced concepts. Advanced vue component design.</p><center>
+	
+</center> <!-- Head tag Code -->
+<p><strong>Advanced Vue Component Design</strong>, Designing compound components using Vues provide and inject features Real-world case studies on building robust sortable list and search select components Every lesson is as short as possible but no shorter so youll learn everything you need to. The line between business logic and the your UI components begins to blur. A comprehensive video course on designing simpler more flexible Vue components that are both more powerful and easier to maintain. Yeah thats the rank of Advanced Vue Component Design amongst all Vuejs tutorials recommended by the programming community.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/25/77/6c/25776cee6b4f026eb699d84fe93fbe98.jpg" alt="Pin On Ui Components" title="Pin On Ui Components" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Pin On Ui Components From pinterest.com</p>
+<p>To learn how to create a Vue component render it inside another component pass data into it using props and save its state. Component-oriented frameworks such as Vuejs have changed the way we think about and write web applications. Video-based book free paid for beginners advanced etc. It covers topics like.</p>
+<h3 id="each-button-rendered-by-the-appvue-component-should-now-have-appropriate-colours-applied-as-shown-in-the-image-below">Each button rendered by the Appvue component should now have appropriate colours applied as shown in the image below.</h3><p><strong>Read another article</strong>:<br>
+<span class="navi text-left"><a class="badge badge-danger" href="/awwwards-web-design-agency/">Awwwards web design agency</a></span>
+<span class="navi text-left"><a class="badge badge-info" href="/aztec-princess-tattoo-designs/">Aztec princess tattoo designs</a></span>
+<span class="navi text-left"><a class="badge badge-secondary" href="/azure-web-design/">Azure web design</a></span>
+<span class="navi text-left"><a class="badge badge-secondary" href="/aztec-design-duvet-covers/">Aztec design duvet covers</a></span>
+<span class="navi text-left"><a class="badge badge-dark" href="/b-designs-inc/">B designs inc</a></span></p>
+<p>All components can take variations in colour that you can easily modify using SASS files. Globally registered components can be used in the template of any root Vue instance new Vue created afterwards and even inside all subcomponents of that Vue instances component tree. Vue Enterprise Patterns How to Build Components With Design System Variants. The most advanced Vue book written. A really great thing about CSS modules is that we can easily pass and compose styles.</p>
+<div class="d-block p-4">
+	<center>
+		 <script type="text/javascript">
+	atOptions = {
+		'key' : 'cdccd96eae510ea5fd061215a594081f',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplayformat.com/cdccd96eae510ea5fd061215a594081f/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/da/35/81/da3581861575c8ba777d002945cb2032.png" alt="Pin On Flat Illustration" title="Pin On Flat Illustration" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Design patterns for Vuejs will arm you with the tools patterns and concepts to build complex scalable and testable applications. Vue Enterprise Patterns How to Build Components With Design System Variants. Thats all you need to know about registration for now but once youve finished reading this page and feel comfortable with its content we recommend coming back later to read the full guide on. Adam Wathan Advanced Vue Component Design. Pin On Flat Illustration.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/9e/a9/20/9ea92033d11321a08fada1d6d012470d.png" alt="Design Tips Wellness Design Design Course Interface Design" title="Design Tips Wellness Design Design Course Interface Design" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: in.pinterest.com</p>
+<p>You will save a lot of time going from prototyping to full-functional code because all elements are implemented. All components can take variations in colour that you can easily modify using SASS files. Learn how to design simpler more flexible components that are both more powerful and easier to maintain. A really great thing about CSS modules is that we can easily pass and compose styles. Design Tips Wellness Design Design Course Interface Design.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/25/77/6c/25776cee6b4f026eb699d84fe93fbe98.jpg" alt="Pin On Ui Components" title="Pin On Ui Components" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Check out the top tutorials courses and pick the one as per your learning style. Vue Advanced Cropper. If youve been following along with some of our other Vue courses youre now at the point where you are ready to tackle more advanced concepts. The full course clocks in at 34 lessons totaling 4 hours of content. Pin On Ui Components.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/9a/04/36/9a0436667a2a2b78a4ba6b8634dbc84d.jpg" alt="Pin On Better" title="Pin On Better" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Advanced-vue-component-design Project setup Compiles and hot-reloads for development Compiles and minifies for production Lints and fixes files READMEmd advanced-vue-component-design. A massive video course on designing robust Laravel applications with TDD. Thats all you need to know about registration for now but once youve finished reading this page and feel comfortable with its content we recommend coming back later to read the full guide on. Component-oriented frameworks such as Vuejs have changed the way we think about and write web applications. Pin On Better.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ac/03/a0/ac03a017c0b8b4be76ea8d7e04848d00.png" alt="Phprad Vue 2 6 2 Phprad Classic 2 5 3 The Advance Rapid Application Development Gui That Delivers Com Web Application Application Development Sql Injection" title="Phprad Vue 2 6 2 Phprad Classic 2 5 3 The Advance Rapid Application Development Gui That Delivers Com Web Application Application Development Sql Injection" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: nl.pinterest.com</p>
+<p>I just finished rewatching a few lessons from the Advanced Vue Component Design course by Adam Wathan and realised what a valuable resource it is. You will save a lot of time going from prototyping to full-functional code because all elements are implemented. Vue Advanced Cropper. Adam Wathan Advanced Vue Component Design. Phprad Vue 2 6 2 Phprad Classic 2 5 3 The Advance Rapid Application Development Gui That Delivers Com Web Application Application Development Sql Injection.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/16/53/9e/16539e5525d9b8446f621777f96f5885.png" alt="Query Builder Condition Rule Editor User Interface Design Web Design Web App Design" title="Query Builder Condition Rule Editor User Interface Design Web Design Web App Design" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Vue-date-picker opens new window - A vue date picker component inspired by material design vue-monthly-picker opens new window - Vuejs component for month and year picker only vue-hotel-datepicker opens new window - A responsive date range picker that displays the number of nights selected allows custom check-incheck-out rules blocking dates localization support and more. Advanced Vue Component Design Posted 29. Designing compound components using Vues provide and inject features Real-world case studies on building robust sortable list and search select components Every lesson is as short as possible but no shorter so youll learn everything you need to. For installation and to use some of the more advanced features of Vue like Single File Components or render functions youll need a terminal with Node and npm installed. Query Builder Condition Rule Editor User Interface Design Web Design Web App Design.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/45/6a/13/456a1379093a7b3b3f31d7862a879709.png" alt="Pin On Interface" title="Pin On Interface" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Ive been shipping Vuejs to production since the spring of 2015 and have learned a ton about writing maintainable resilient Vue code that lasts. Design patterns for Vuejs will arm you with the tools patterns and concepts to build complex scalable and testable applications. A massive video course on designing robust Laravel applications with TDD. Vue Enterprise Patterns How to Build Components With Design System Variants. Pin On Interface.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/7d/22/36/7d2236dfcb917a9d7fccb575774bfd35.png" alt="Segmentation Builder In 2021 Segmentation Builder Web Design" title="Segmentation Builder In 2021 Segmentation Builder Web Design" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>All components can take variations in colour that you can easily modify using SASS files. Building custom controlled components. Vue Components for Global Brain Design System. This book is aimed at developers with some JavaScript and Vuejs experience who would like to learn more advanced patterns. Segmentation Builder In 2021 Segmentation Builder Web Design.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/4d/88/ae/4d88ae8dcd0acafc557b52c028c46b4e.png" alt="Pin On Programming" title="Pin On Programming" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: in.pinterest.com</p>
+<p>I just finished rewatching a few lessons from the Advanced Vue Component Design course by Adam Wathan and realised what a valuable resource it is. Whats Inside The full course clocks in at 34 lessons totaling 4 hours of content. The full course clocks in at 34 lessons totaling 4 hours of content. A comprehensive video course on designing simpler more flexible Vue components that are both more powerful and easier to maintain. Pin On Programming.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/3e/58/52/3e5852053d97b2aede962d6e2cbbc6d6.png" alt="Mixpanel Query Builder Custom Metrics Custom Query Text Analysis" title="Mixpanel Query Builder Custom Metrics Custom Query Text Analysis" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>I just finished rewatching a few lessons from the Advanced Vue Component Design course by Adam Wathan and realised what a valuable resource it is. Advanced-vue-component-design Project setup Compiles and hot-reloads for development Compiles and minifies for production Lints and fixes files READMEmd advanced-vue-component-design. The most advanced Vue book written. Component-oriented frameworks such as Vuejs have changed the way we think about and write web applications. Mixpanel Query Builder Custom Metrics Custom Query Text Analysis.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/474x/21/9e/e2/219ee2e0edeb7e0ca46006ebd5ee16c1.jpg" alt="Advanced Vue Components Creative Inspiration Flat Illustration Components" title="Advanced Vue Components Creative Inspiration Flat Illustration Components" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Thats all you need to know about registration for now but once youve finished reading this page and feel comfortable with its content we recommend coming back later to read the full guide on. It covers topics like. The most advanced Vue book written. A comprehensive video course on designing simpler more flexible Vue components that are both more powerful and easier to maintain. Advanced Vue Components Creative Inspiration Flat Illustration Components.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/14/7d/4f/147d4fa16e6ace2a0545cf1873475e6b.webp" alt="Set Of Components To Handle Your Online Form Interaction In 2021 Online Form Form Interactive" title="Set Of Components To Handle Your Online Form Interaction In 2021 Online Form Form Interactive" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Vue Components for Global Brain Design System. Yeah thats the rank of Advanced Vue Component Design amongst all Vuejs tutorials recommended by the programming community. Adam Wathan Advanced Vue Component Design. Vue Enterprise Patterns How to Build Components With Design System Variants. Set Of Components To Handle Your Online Form Interaction In 2021 Online Form Form Interactive.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/1d/c4/50/1dc45082a1a0a0cef3b02b666898a804.png" alt="Pin On Design" title="Pin On Design" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Advanced-vue-component-design Project setup Compiles and hot-reloads for development Compiles and minifies for production Lints and fixes files READMEmd advanced-vue-component-design. Adam Wathan Advanced Vue Component Design. Learn how to design simpler more flexible components that are both more powerful and easier to maintain. I just finished rewatching a few lessons from the Advanced Vue Component Design course by Adam Wathan and realised what a valuable resource it is. Pin On Design.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/89/85/b9/8985b95ac55a21b082af8a7cf5187acb.jpg" alt="Pin On Vue Js" title="Pin On Vue Js" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>All components can take variations in colour that you can easily modify using SASS files. A massive video course on designing robust Laravel applications with TDD. The full course clocks in at 34 lessons totaling 4 hours of content. Each button rendered by the Appvue component should now have appropriate colours applied as shown in the image below. Pin On Vue Js.</p>
+<p><img loading="lazy" width="100%" src="https://wallepics.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/89/85/b9/8985b95ac55a21b082af8a7cf5187acb.png" alt="Pin On Vue Js" title="Pin On Vue Js" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Building custom controlled components. Feature rich and capable of handing big data JD-Table was designed to. Vue Argon Design System is built with over 100 individual components giving you the freedom of choosing and combining. All components can take variations in colour that you can easily modify using SASS files. Pin On Vue Js.</p>
+
+            </article>
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/creative-design/best-free-boat-design-software/">&laquo;&laquo;&nbsp;36 Hots Best free boat design software Trend 2020</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/creative-design/acp-sheet-gate-design/">15 Hots Acp sheet gate design Trend in 2022&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Related Article</span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/ashley-shaw-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/564x/8f/4b/42/8f4b4230dfecf59d6f74caf0923b6d84.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/ashley-shaw-design/">35 Best Ashley shaw design </a>
+                        </h2>
+                        <small class="text-muted">Apr 17 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/best-email-marketing-designs-2018/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/68/b6/4d/68b64d21f9a787f61ba11f71e185715e.png" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/best-email-marketing-designs-2018/">40 Popular Best email marketing designs 2018 Trend in 2021</a>
+                        </h2>
+                        <small class="text-muted">Nov 02 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/beautiful-hair-salon-designs/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/1d/58/8c/1d588c86e6252de7dc79d0b5ca825398.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/beautiful-hair-salon-designs/">23 Popular Beautiful hair salon designs Trend 2020</a>
+                        </h2>
+                        <small class="text-muted">Jun 06 . 8 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/alfa-romeo-giulietta-lp-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/3f/53/40/3f534057e926f98a5c703762c2059585--alfa-romeo-c-le-mans.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/alfa-romeo-giulietta-lp-design/">47  Alfa romeo giulietta lp design Trend 2020</a>
+                        </h2>
+                        <small class="text-muted">Mar 02 . 6 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/web-design-sussex-littlehampton/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ef/79/ee/ef79eedc3905109f47e5ad604bb5d7b8.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/web-design-sussex-littlehampton/">85 Popular Web design sussex littlehampton </a>
+                        </h2>
+                        <small class="text-muted">Mar 22 . 5 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/artek-design-corp/"><img height="80" src="/img/placeholder.svg" data-src="https://artekdesign.com/wp-content/webpc-passthru.php?src=https://mlgdbd022uar.i.optimole.com/aeCspHA-R4LIj22K/w:auto/h:auto/q:55/https://artekdesign.com/wp-content/uploads/2019/03/23-1.jpg&amp;amp;nocache=1" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/artek-design-corp/">42 Popular Artek design corp Trend in 2022</a>
+                        </h2>
+                        <small class="text-muted">Apr 15 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/american-eagle-jean-pocket-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ae/7f/1e/ae7f1e59040d5db0ce0e353570208770.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/american-eagle-jean-pocket-design/">25 Hots American eagle jean pocket design </a>
+                        </h2>
+                        <small class="text-muted">May 17 . 6 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/creative-design/australian-wedding-dress-designers-uk/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/61/0b/4a/610b4ae62571eb9e45d5e3239826558a--wedding-lace-wedding-dress.jpg" onerror="this.onerror=null;this.src='https:\/\/wallepics.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/creative-design/australian-wedding-dress-designers-uk/">86 Popular Australian wedding dress designers uk Trend in 2021</a>
+                        </h2>
+                        <small class="text-muted">Feb 02 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://wallepics.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://wallepics.github.io/creative-design/">Creative Design and Ideas</a> Copyright &copy; 2022.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+
+
+<script type="text/javascript">
+var sc_project=12137781; 
+var sc_invisible=1; 
+var sc_security="24ae3eb0"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12137781/0/24ae3eb0/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+ 
+  </body>
+</html>
